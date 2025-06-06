@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Недвижимость в Дубае</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center flex-wrap">
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler d-lg-none me-3 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <img src="img/icons/logo.png" alt="Логотип">
+                </div>                
+    
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <nav class="navbar-nav d-flex flex-row gap-2">
+                        <a class="nav-link" href="#">Продажа</a>
+                        <a class="nav-link" href="#">Аренда</a>
+                        <a class="nav-link" href="#">Новостройки</a>
+                        <a class="nav-link" href="#">Виллы</a>
+                        <a class="nav-link" href="#">Сервисы Caves</a>
+                        <a class="nav-link" href="#">Компания</a>
+                    </nav>
+                </div>
+                
+                <div class="d-flex align-items-center gap-3">
+                    <!-- Локация -->
+                    <div class="dropdown d-none d-lg-flex align-items-center gap-2">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/send--3--3.svg" alt="Location" width="20">
+                        <button class="btn btn-sm btn-link dropdown-toggle p-0 text-dark" data-bs-toggle="dropdown">
+                            Дубай
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Абу-Даби</a></li>
+                            <li><a class="dropdown-item" href="#">Шарджа</a></li>
+                            <li><a class="dropdown-item" href="#">Дубай</a></li>
+                        </ul>
+                    </div>
+                  
+                    <!-- Язык -->
+                    <div class="dropdown d-none d-lg-flex align-items-center gap-1">
+                        <button class="btn btn-sm btn-link dropdown-toggle p-0 text-dark" data-bs-toggle="dropdown">
+                            Ру
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">RU</a></li>
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">DE</a></li>
+                        </ul>
+                    </div>
+                  
+                    <!-- Валюта -->
+                    <div class="dropdown d-none d-lg-flex align-items-center gap-1">
+                        <button class="btn btn-sm btn-link dropdown-toggle p-0 text-dark" data-bs-toggle="dropdown">
+                            $ Доллар
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">$ Доллар</a></li>
+                            <li><a class="dropdown-item" href="#">€ Евро</a></li>
+                            <li><a class="dropdown-item" href="#">د.إ Дирхам</a></li>
+                        </ul>
+                    </div>
+                  
+                    <!-- Иконки -->
+                    <div class="d-none d-lg-flex align-items-center gap-2">
+                        <a href="#"><img src="img/icons/saver.png" width="53" alt="save"></a>
+                        <a href="#"><img src="img/icons/watsapp.png" width="53" alt="WhatsApp"></a>
+                        <a href="#"><img src="img/icons/telegram.png" width="53" alt="Telegram"></a>
+                        <a href="#" class="d-flex align-items-center justify-content-center rounded-circle border border-dark" style="width: 52px; height: 52px;">
+                            <img src="img/icons/phone.png" width="53" alt="Phone">
+                        </a>
+                    </div>
+                </div>                  
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero section-->
+    <section class="hero-section">
+        <div class="hero-content-container d-flex align-items-center justify-content-center">
+            <div class="hero-content text-center">
+                <h1>ПРОДАЖА<br>И АРЕНДА<br>НОВОСТРОЕК<br>В ДУБАЕ</h1>
+                
+                <div class="search-form bg-white rounded-pill p-3 shadow mx-auto">
+                    <form class="d-flex flex-wrap justify-content-center">
+                        <div class="position-relative mb-2 mb-md-0 me-md-2">
+                            <select class="form-select border-0">
+                                <option>Купить</option>
+                            </select>
+                        </div>
+                        
+                        <div class="position-relative mb-2 mb-md-0 me-md-2">
+                            <select class="form-select border-0">
+                                <option>Любая недвижимость</option>
+                            </select>
+                        </div>
+                        
+                        <div class="position-relative mb-2 mb-md-0 me-md-2">
+                            <select class="form-select border-0">
+                                <option>Цена</option>
+                            </select>
+                        </div>
+
+                        <div class="position-relative mb-2 mb-md-0 me-md-2 flex-grow-1">
+                            <input type="text" class="form-control border-0" placeholder="Район, адрес, метро или ЖК">
+                        </div>
+                        
+                        <button class="btn btn-primary rounded-pill px-5 px-md-5 py-md-3">НАЧАТЬ ПОДБОР</button>
+                    </form>
+                </div>
+                <p class="hero-description mx-auto">Первоначальным снижением цен считается увеличение числа предложений на рынке недвижимости, что позволяет эмирату быть на третьем месте в списке городов мира.</p>
+                <p class="hero-description mx-auto">На фото: Эктал Дейсгальда 23:03 AMS</p>
+            </div>
+        </div>
+        
+        <div class="assistant-btn position-absolute bottom-0 end-0 bg-dark bg-opacity-50 rounded-top p-3">
+            <span class="text-white">ВИРТУАЛЬНЫЙ АССИСТЕНТ</span>
+        </div>
+    </section>
+
+ <!-- Recommended Section -->
+<section class="recommend-section py-5">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2 class="section-title mb-0">РЕКОМЕНДУЕМ</h2>
+            <div class="carousel-controls">
+                <button class="nav-btn prev-btn btn btn-outline-dark rounded-circle me-2">❮</button>
+                <button class="nav-btn next-btn btn btn-outline-dark rounded-circle">❯</button>
+            </div>
+        </div>
+        
+        <div class="carousel-container position-relative">
+            <div class="carousel d-flex gap-4">
+                <!-- Карточка 1 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-97-1.png')">
+                    <div class="card-content">
+                        <h3>AVANI PALM VIEW</h3>
+                        <button class="arrow-btn rounded-circle border-0">→</button>
+                    </div>
+                </div>
+                
+                <!-- Карточка 2 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-98.png')">
+                    <div class="card-content">
+                        <p>400 МЕТРОВ ОТ ПЛЯЖА МИНА-СЕЯХИ</p>
+                    </div>
+                </div>
+                
+                <!-- Карточка 3 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-99.png')">
+                    <div class="card-content">
+                        <p>РЕСТОРАН, ОТКРЫТЫЙ БАССЕЙН, БЕСПЛАТНЫЙ WI-FI</p>
+                    </div>
+                </div>
+                
+                <!-- Карточка 4 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group.png')">
+                    <div class="card-content">
+                        <p>10 ПРЕДЛОЖЕНИЙ ОТ $309,484</p>
+                        <button class="view-btn btn btn-light rounded-pill px-3 py-1">СМОТРЕТЬ</button>
+                    </div>
+                </div>
+                
+                <!-- Карточка 5 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-97.png')">
+                    <div class="card-content">
+                        <h3>DUBAI CREEK HARBOUR</h3>
+                        <button class="arrow-btn rounded-circle border-0">→</button>
+                    </div>
+                </div>
+
+                <!-- Карточка 1 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-97-1.png')">
+                    <div class="card-content">
+                        <h3>AVANI PALM VIEW</h3>
+                        <button class="arrow-btn rounded-circle border-0">→</button>
+                    </div>
+                </div>
+                
+                <!-- Карточка 2 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-98.png')">
+                    <div class="card-content">
+                        <p>400 МЕТРОВ ОТ ПЛЯЖА МИНА-СЕЯХИ</p>
+                    </div>
+                </div>
+                
+                <!-- Карточка 3 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-99.png')">
+                    <div class="card-content">
+                        <p>РЕСТОРАН, ОТКРЫТЫЙ БАССЕЙН, БЕСПЛАТНЫЙ WI-FI</p>
+                    </div>
+                </div>
+                
+                <!-- Карточка 4 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group.png')">
+                    <div class="card-content">
+                        <p>10 ПРЕДЛОЖЕНИЙ ОТ $309,484</p>
+                        <button class="view-btn btn btn-light rounded-pill px-3 py-1">СМОТРЕТЬ</button>
+                    </div>
+                </div>
+                
+                <!-- Карточка 5 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-97.png')">
+                    <div class="card-content">
+                        <h3>DUBAI CREEK HARBOUR</h3>
+                        <button class="arrow-btn rounded-circle border-0">→</button>
+                    </div>
+                </div>
+                <!-- Карточка 1 -->
+                <div class="card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-97-1.png')">
+                    <div class="card-content">
+                        <h3>AVANI PALM VIEW</h3>
+                        <button class="arrow-btn rounded-circle border-0">→</button>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+<section class="projects py-5">
+    <div class="container">
+        <h2 class="mb-4">Надежные проекты</h2>
+
+        <div class="filter-buttons mb-5">
+            <button class="btn btn-dark rounded-pill px-4 me-2">Все</button>
+            <button class="btn btn-outline-dark rounded-pill px-4 me-2">Квартира</button>
+            <button class="btn btn-outline-dark rounded-pill px-4 me-2">Вилла</button>
+            <button class="btn btn-outline-dark rounded-pill px-4 me-2">Пентхаус</button>
+            <button class="btn btn-outline-dark rounded-pill px-4">Лофт</button>
+        </div>
+        
+        <div class="projects-slider-container position-relative">
+            <div class="projects-slider d-flex gap-4">
+                <div class="project-card">
+                    <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group-1.png" class="img-fluid" alt="Вид с номера">
+                    <div class="badge">СДАЧА В 2022 ГОДУ</div>
+                    <h3>Adress Jumerald Beach Resort</h3>
+                    <p class="price">от 43 240 $</p>
+                    <p class="offers">10 предложений</p>
+                    <p class="type">АППАРТАМЕНТЫ</p>
+                </div>
+                
+                <div class="project-card">
+                    <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group-2.png" class="img-fluid" alt="Вид с номера">
+                    <div class="badge">ОТКРЫТЫ ПРОДАЖИ</div>
+                    <h3>azizi mina palm jumeirah</h3>
+                    <p class="price">от 43 240 $</p>
+                    <p class="offers">10 предложений</p>
+                    <p class="type">АППАРТАМЕНТЫ</p>
+                </div>
+                
+                <div class="project-card">
+                    <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group-3.png" class="img-fluid" alt="Вид с номера">
+                    <div class="badge">ОКУПАЕМОСТЬ 100%</div>
+                    <h3>The Garden Collection at Dubai</h3>
+                    <p class="description">Небольшое описание комплекса на пару строк, чтобы захотелось смотреть дальше и купить его</p>
+                    <p class="price">от 43 240 $</p>
+                    <p class="offers">10 предложений</p>
+                    <p class="type">ЭЛИТНЫЕ ВИЛЛЫ</p>
+                </div>
+                
+                <!-- Добавьте дополнительные карточки проектов при необходимости -->
+                <div class="projects-slider d-flex gap-4">
+                    <div class="project-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group-1.png" class="img-fluid" alt="Вид с номера">
+                        <div class="badge">СДАЧА В 2022 ГОДУ</div>
+                        <h3>Adress Jumerald Beach Resort</h3>
+                        <p class="price">от 43 240 $</p>
+                        <p class="offers">10 предложений</p>
+                        <p class="type">АППАРТАМЕНТЫ</p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group-2.png" class="img-fluid" alt="Вид с номера">
+                        <div class="badge">ОТКРЫТЫ ПРОДАЖИ</div>
+                        <h3>azizi mina palm jumeirah</h3>
+                        <p class="price">от 43 240 $</p>
+                        <p class="offers">10 предложений</p>
+                        <p class="type">АППАРТАМЕНТЫ</p>
+                    </div>
+                    
+                    <div class="project-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group-3.png" class="img-fluid" alt="Вид с номера">
+                        <div class="badge">ОКУПАЕМОСТЬ 100%</div>
+                        <h3>The Garden Collection at Dubai</h3>
+                        <p class="description">Небольшое описание комплекса на пару строк, чтобы захотелось смотреть дальше и купить его</p>
+                        <p class="price">от 43 240 $</p>
+                        <p class="offers">10 предложений</p>
+                        <p class="type">ЭЛИТНЫЕ ВИЛЛЫ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Catalog Section -->
+<section class="catalog py-5 text-white">
+    <div class="container">
+        <div class="developer-card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group-4.png');">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 py-5">
+                    <h2 class="mb-4">УНИКАЛЬНЫЙ ВЫБОР<br>ЖИЛЬЯ В КАТАЛОГЕ</h2>
+                    <p class="mb-5">Больше 10000 предложений апартаментов, квартир и другой недвижимости, которых нет на сайтах!</p>
+                    <button class="btn btn-light rounded-pill px-5 py-3">СКАЧАТЬ КАТАЛОГ</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Actual Section -->
+    <section class="actual py-5">
+        <div class="container">
+            <h2 class="mb-5">Актуально</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="property-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-20.png" class="img-fluid" alt="Вид номера">
+                        <h4>Аппартаменты <br>в The Palm Jumeirah</h4>
+                        <p class="price">от 3 121 187 $</p>
+                        <div class="details">
+                            <span><i class="bed-icon"></i> 3 спальни</span>
+                            <span>1,443 м2</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="property-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-30.png" class="img-fluid" alt="Вид номера">
+                        <h4>Аппартаменты <br>в The Palm Jumeirah</h4>
+                        <p class="price">от 3 121 187 $</p>
+                        <div class="details">
+                            <span><i class="bed-icon"></i> 3 спальни</span>
+                            <span>1,443 м2</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="property-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-31.png" class="img-fluid" alt="Вид номера">
+                        <h4>Аппартаменты <br>в The Palm Jumeirah</h4>
+                        <p class="price">от 3 121 187 $</p>
+                        <div class="details">
+                            <span><i class="bed-icon"></i> 3 спальни</span>
+                            <span>1,443 м2</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="property-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-32.png" class="img-fluid" alt="Вид номера">
+                        <h4>Аппартаменты <br>в The Palm Jumeirah</h4>
+                        <p class="price">от 3 121 187 $</p>
+                        <div class="details">
+                            <span><i class="bed-icon"></i> 3 спальни</span>
+                            <span>1,443 м2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-warning text-center" id="promo-banner">
+                🎁 Скидка действует ещё <span id="countdown-timer">05:00</span>
+              </div>  
+        </div>
+    </section>
+
+<!-- Developer Section -->
+<section class="developer py-5">
+    <div class="container">
+      <div class="row align-items-start mb-5">
+        <div class="col-md-6">
+          <p class="section-label">ЗАСТРОЙЩИКИ</p>
+          <h2 class="mb-4">SERENIA RESIDENCES</h2>
+          <div class="d-flex gap-3">
+            <button class="btn btn-primary rounded-pill px-4">Объекты застройщика</button>
+            <button class="btn btn-outline-dark rounded-pill px-4">Больше о застройщике</button>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <p>Serenia Residences is a hidden gem on The Palm Jumeirah, home to a select few. This magnificent property is a private residential resort that offers an elite collection of 1, 2, 3 bedroom apartments and half-floor penthouses set in a stunning location overlooking The Palm, Atlantis, Burj Al Arab, the Dubai Marina skyline and the captivating blue seas of The Gulf.</p>
+        </div>
+      </div>
+  
+      <div class="developer-slider-wrapper overflow-hidden position-relative" style="width: 100%;">
+        <div class="developer-slider d-flex">
+          <div class="developer-slide">
+            <div class="developer-card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-113.png');">
+              <h3>AZIZI MINA PALM JUMEIRAH</h3>
+              <p class="price">от 43 240 $</p>
+            </div>
+          </div>
+          <div class="developer-slide">
+            <div class="developer-card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-113.png');">
+              <h3>AZIZI MINA PALM JUMEIRAH</h3>
+              <p class="price">от 43 240 $</p>
+            </div>
+          </div>
+          <div class="developer-slide">
+            <div class="developer-card" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-113.png');">
+              <h3>AZIZI MINA PALM JUMEIRAH</h3>
+              <p class="price">от 43 240 $</p>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div>
+  </section>  
+
+    <!-- News Section -->
+    <section class="news py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2>Новости</h2>
+                <button class="btn btn-outline-dark rounded-pill px-4">Все новости</button>
+            </div>
+            
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <div class="news-item">
+                        <p class="date">22.05.2022</p>
+                        <h3 class="mb-3">Аренда в Дубае: необходимо ли предварительное уведомление до возврата недвижимости?</h3>
+                        <p>Жителям Дубая рекомендуется проверять договоры аренды на предмет положений о порядке действий перед освобождением квартиры или офиса - многие арендаторы жилой и коммерческой...</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="news-item">
+                        <p class="date">22.05.2022</p>
+                        <h3 class="mb-3">Обладатель множества наград, компания Emaar Properties представляет новый проект lotus</h3>
+                        <p>Жителям Дубая рекомендуется проверять договоры аренды на предмет положений о порядке действий перед освобождением квартиры или офиса - многие арендаторы жилой и коммерческой...</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-flex justify-content-between align-items-center mb-5">
+                <h2>Статьи</h2>
+                <button class="btn btn-outline-dark rounded-pill px-4">Все статьи</button>
+            </div>
+            
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="article-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-37-3.png" class="img-fluid" alt="Фото к статье">
+                        <h4>Как не ошибиться с выбором района в Дубаи</h4>
+                        <p>Как не дать себя обмануть: что, где и как выбирать? Советует эксперт.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="article-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-91-1.png" class="img-fluid" alt="Фото к статье">
+                        <h4>Риски, если покупатель квартиры - потенциальный банкрот</h4>
+                        <p>Как не дать себя обмануть: что, где и как выбирать? Советует эксперт.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="article-card">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/rectangle-37-3.png" class="img-fluid" alt="Фото к статье">
+                        <h4>Как не ошибиться с выбором района в Дубаи</h4>
+                        <p>Как не дать себя обмануть: что, где и как выбирать? Советует эксперт.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Quest section-->
+<div class="d-flex justify-content-between align-items-center mb-5">
+    <h2>Вопросы</h2>
+    <button class="btn btn-outline-dark rounded-pill px-4">Все вопросы</button>
+</div>
+
+<div class="row g-4">
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="question-card h-100">
+            <h4>Необходимо ли предварительное уведомление до возврата недвижимости?</h4>
+            <div class="d-flex flex-wrap align-items-center gap-3 mt-3">
+                <div class="author">Татьяна Сорокина</div>
+                <div class="date">22.05.2022</div>
+            </div>
+            <button class="btn btn-outline-dark rounded-pill mt-3">22 совета</button>
+        </div>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="question-card h-100">
+            <h4>Необходимо ли предварительное уведомление до возврата недвижимости?</h4>
+            <div class="d-flex flex-wrap align-items-center gap-3 mt-3">
+                <div class="author">Татьяна Сорокина</div>
+                <div class="date">22.05.2022</div>
+            </div>
+            <button class="btn btn-outline-dark rounded-pill mt-3">22 совета</button>
+        </div>
+    </div>
+    
+    <div class="col-12 col-md-6 col-lg-4">
+        <div class="question-card h-100">
+            <h4>В чем разница между безусловным правом собственности и арендой?</h4>
+            <div class="d-flex flex-wrap align-items-center gap-3 mt-3">
+                <div class="author">Татьяна Сорокина</div>
+                <div class="date">22.05.2022</div>
+            </div>
+            <button class="btn btn-outline-dark rounded-pill mt-3">22 совета</button>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter py-5 text-white" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group-5.png');">
+        <div class="container py-5">
+            <h2 class="mb-4">Подпишитесь <br>на рассылку о новостях недвижимости</h2>
+            
+            <div class="d-flex flex-column flex-md-row mb-3 gap-2" id="newsletter-form">
+                <input type="email" id="newsletter-email" class="form-control rounded-pill" placeholder="Ваш e-mail" required>
+                <button type="button" class="btn btn-primary rounded-pill px-5" id="newsletter-submit">подписаться</button>
+              </div>
+              <p id="newsletter-error" class="text-warning small" style="display: none;"></p>              
+            
+            <p class="small">При подписке вы принимаете условия <a href="#" class="text-white">Пользовательского соглашения</a> и <a href="#" class="text-white">Политики конфиденциальности</a></p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="section-label">О КОМПАНИИ</p>
+                    <h2 class="mb-4">Выгодные цены на недвижимость в Дубаи</h2>
+                    <p class="mb-5">Serenia Residences is a hidden gem on The Palm Jumeirah, home to a select few. This magnificent property is a private residential resort that offers an elite collection of 1, 2, 3 bedroom apartments and half-floor penthouses set in a stunning location overlooking The Palm, Atlantis, Burj Al Arab, the Dubai Marina skyline and the captivating blue seas of The Gulf.</p>
+                    
+                    <div class="d-flex gap-3 mb-5">
+                        <button class="btn btn-primary rounded-pill px-4">Больше о компании</button>
+                        <button class="btn btn-outline-dark rounded-pill px-4">Видео о нас</button>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-6">
+                            <h3 class="display-4" id="counter-commission">0%</h3>
+                            <p>Работаем без комиссии</p>
+                          </div>
+                          
+                          <div class="col-6">
+                            <h3 class="display-4" id="counter-mortgage">2.99</h3>
+                            <p>Доступная ипотека</p>
+                          </div>
+                          
+                          <div class="col-6">
+                            <h3 class="display-4" id="counter-founded">2010</h3>
+                            <p>Год основания компании</p>
+                          </div>
+                          
+                          <div class="col-6">
+                            <h3 class="display-4" id="counter-repeat">2010</h3>
+                            <p>Год основания компании</p>
+                          </div>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<!-- Quiz Section -->
+<section class="quiz py-5 text-white" style="background-image: url('https://c.animaapp.com/mbaq8djtQ6PlNr/img/mask-group-6.png');">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="mb-4">Начните поиск недвижимости прямо сейчас!</h2>
+                <p class="mb-5">Ответьте на 8 простых вопросов и получите список наиболее подходящих вариантов уже через 3 часа!</p>
+                
+                <div class="quiz-form bg-white p-5 rounded-4 text-dark">
+                    <div id="quiz-container">
+                  
+                      <!-- Прогресс -->
+                      <div class="d-flex justify-content-between align-items-center mb-4">
+                        <span class="text-muted quiz-progress">1 из 8</span>
+                      </div>
+                  
+                      <!-- Вопросы -->
+                      <div class="quiz-step" data-step="1">
+                        <h3 class="mb-4">Цель покупки недвижимости?</h3>
+                        <label class="form-check-label"><input type="radio" name="q1" value="Для жизни"> Для жизни</label><br>
+                        <label class="form-check-label"><input type="radio" name="q1" value="Для инвестиций"> Для инвестиций</label><br>
+                        <label class="form-check-label"><input type="radio" name="q1" value="Другое"> Другое</label>
+                      </div>
+                  
+                      <div class="quiz-step d-none" data-step="2">
+                        <h3 class="mb-4">Какой тип недвижимости вас интересует?</h3>
+                        <label><input type="radio" name="q2" value="Квартира"> Квартира</label><br>
+                        <label><input type="radio" name="q2" value="Вилла"> Вилла</label><br>
+                        <label><input type="radio" name="q2" value="Апартаменты"> Апартаменты</label>
+                      </div>
+                  
+                      <div class="quiz-step d-none" data-step="3">
+                        <h3 class="mb-4">Какой бюджет вы рассматриваете?</h3>
+                        <label><input type="radio" name="q3" value="до $100,000"> до $100,000</label><br>
+                        <label><input type="radio" name="q3" value="$100,000–$300,000"> $100,000–$300,000</label><br>
+                        <label><input type="radio" name="q3" value="более $300,000"> более $300,000</label>
+                      </div>
+                  
+                      <div class="quiz-step d-none" data-step="4">
+                        <h3 class="mb-4">Какой район вам предпочтительнее?</h3>
+                        <label><input type="radio" name="q4" value="Palm Jumeirah"> Palm Jumeirah</label><br>
+                        <label><input type="radio" name="q4" value="Business Bay"> Business Bay</label><br>
+                        <label><input type="radio" name="q4" value="Не важно"> Не важно</label>
+                      </div>
+                  
+                      <div class="quiz-step d-none" data-step="5">
+                        <h3 class="mb-4">Когда планируете покупку?</h3>
+                        <label><input type="radio" name="q5" value="В ближайшее время"> В ближайшее время</label><br>
+                        <label><input type="radio" name="q5" value="Через 1–3 месяца"> Через 1–3 месяца</label><br>
+                        <label><input type="radio" name="q5" value="Пока изучаю рынок"> Пока изучаю рынок</label>
+                      </div>
+                  
+                      <div class="quiz-step d-none" data-step="6">
+                        <h3 class="mb-4">Какая площадь вас интересует?</h3>
+                        <label><input type="radio" name="q6" value="до 50 м²"> до 50 м²</label><br>
+                        <label><input type="radio" name="q6" value="50–100 м²"> 50–100 м²</label><br>
+                        <label><input type="radio" name="q6" value="100+ м²"> 100+ м²</label>
+                      </div>
+                  
+                      <div class="quiz-step d-none" data-step="7">
+                        <h3 class="mb-4">Интересует ли аренда с доходом?</h3>
+                        <label><input type="radio" name="q7" value="Да"> Да</label><br>
+                        <label><input type="radio" name="q7" value="Нет"> Нет</label><br>
+                        <label><input type="radio" name="q7" value="Пока не решил"> Пока не решил</label>
+                      </div>
+                  
+                      <div class="quiz-step d-none" data-step="8">
+                        <h3 class="mb-4">Предпочтения по застройщику?</h3>
+                        <label><input type="radio" name="q8" value="Emaar"> Emaar</label><br>
+                        <label><input type="radio" name="q8" value="DAMAC"> DAMAC</label><br>
+                        <label><input type="radio" name="q8" value="Без предпочтений"> Без предпочтений</label>
+                      </div>
+                  
+                      <!-- Завершение -->
+                      <div class="quiz-step d-none" data-step="9">
+                        <h3 class="mb-4">Оставьте ваши контактные данные</h3>
+                        <input type="text" class="form-control mb-3" placeholder="Ваше имя" id="userName">
+                        <input type="text" class="form-control mb-3" placeholder="Email или телефон" id="userContact">
+                      </div>
+                  
+                      <!-- Спасибо -->
+                      <div class="quiz-step d-none" data-step="10">
+                        <h3 class="mb-4">Спасибо!</h3>
+                        <p>Ваши ответы отправлены. Мы свяжемся с вами в ближайшее время.</p>
+                      </div>
+                  
+                      <!-- Кнопка -->
+                      <div class="text-end mt-4">
+                        <button id="quiz-next" class="btn btn-primary rounded-pill px-4 py-2">Следующий вопрос</button>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                <div class="contact-info mt-5">
+                    <p class="mb-4">Если у вас возникли сложности с прохождением теста или появились вопросы свяжитесь с нашими менеджерами по телефону:</p>
+                    <div class="d-flex align-items-center">
+                      <button class="btn btn-primary rounded-circle p-3 me-3">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/phone--4--6.svg" width="24" alt="Телефон">
+                      </button>
+                      <h3 class="mb-0">+ 7 232-232-23-23</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <p class="text-muted mb-4">ЦИАН — база данных о недвижимости. Использование сайта означает согласие с Пользовательским соглашением и Политикой конфиденциальности ЦИАН. Оплачивая лицензионный платеж, вы принимаете Лицензионное соглашение.</p>
+            
+            <div class="d-flex flex-wrap gap-4 mb-4">
+                <a href="#" class="text-muted">Справочный центр</a>
+                <a href="#" class="text-muted">Юридические документы</a>
+                <a href="#" class="text-muted">Тарифы и цены</a>
+                <a href="#" class="text-muted">Помощь</a>
+                <a href="#" class="text-muted">Поиск на карте</a>
+                <a href="#" class="text-muted">Проверка недвижимости</a>
+                <a href="#" class="text-muted">Карта сайта</a>
+                <a href="#" class="text-muted">Свежие объявления</a>
+                <a href="#" class="text-muted">Карьера в Циан</a>
+            </div>
+            
+<!-- Карта -->
+<section class="map-section py-5">
+    <div class="container">
+      <h2 class="mb-4">Мы на карте</h2>
+      <div id="map" style="height: 400px; border-radius: 10px; overflow: hidden;"></div>
+    </div>
+  </section>
+  
+
+            <div class="d-flex align-items-center gap-3 mb-4">
+                <img src="img/icons/logo.png" alt="Логотип">
+                
+                <div class="social-icons d-flex gap-2">
+                    <a href="#" class="d-flex align-items-center justify-content-center rounded-circle border border-dark" style="width: 52px; height: 52px;">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/vk--1--1.svg" width="29" alt="VK">
+                    </a>
+                    
+                    <a href="#" class="d-flex align-items-center justify-content-center rounded-circle border border-dark" style="width: 52px; height: 52px;">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/group-725.png" width="21" alt="Instagram">
+                    </a>
+                    
+                    <a href="#" class="d-flex align-items-center justify-content-center rounded-circle border border-dark" style="width: 52px; height: 52px;">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/group-13.png" width="18" alt="TikTok">
+                    </a>
+                    
+                    <a href="#" class="d-flex align-items-center justify-content-center rounded-circle border border-dark" style="width: 52px; height: 52px;">
+                        <img src="https://c.animaapp.com/mbaq8djtQ6PlNr/img/group-14.png" width="27" alt="YouTube">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="d-flex gap-3">
+                <button class="btn btn-outline-dark rounded-pill px-4">Доступно в AppStore</button>
+                <button class="btn btn-outline-dark rounded-pill px-4">Доступно в GooglePlay</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Anchor Navigation Buttons -->
+<div class="anchor-buttons position-fixed end-0 bottom-0 p-3 d-flex flex-column gap-2" style="z-index: 9999;">
+    <button class="btn btn-dark rounded-circle shadow scroll-to-top" title="Наверх" style="width: 48px; height: 48px;">
+      ↑
+    </button>
+    <button class="btn btn-dark rounded-circle shadow scroll-to-bottom" title="Вниз" style="width: 48px; height: 48px;">
+      ↓
+    </button>
+  </div>
+
+<!-- Popup -->
+<div id="promo-popup" class="position-fixed top-0 start-0 w-100 h-100 align-items-center justify-content-center bg-dark bg-opacity-75"
+     style="display: none; z-index: 9999;">
+  <div class="bg-white p-4 rounded-4 shadow-lg position-relative" style="max-width: 500px; width: 100%;">
+    <button type="button" id="close-popup" class="btn-close position-absolute top-0 end-0 m-3"></button>
+    <h4 class="mb-3">🔥 Специальное предложение!</h4>
+    <p class="mb-3">Скидка до 15% на недвижимость от EMAAR.</p>
+    <a href="#projects" class="btn btn-primary rounded-pill">Посмотреть объекты</a>
+  </div>
+</div>
+
+  <div id="floating-notice" class="position-fixed bottom-0 end-0 m-4 bg-primary text-white p-3 rounded-3 shadow-lg" style="display: none; z-index: 9999;">
+    🎁 Получите подборку квартир с рассрочкой на 5 лет!
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/app.js"></script>
+
+<!-- Leaflet CSS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+/>
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+</body>
+</html>
